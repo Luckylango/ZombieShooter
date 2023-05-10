@@ -9,11 +9,12 @@ TagManager:
   - Dimmer
   - EnemyStrong
   - InventoryManager
+  - PlayerBody
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcess
   - Water
   - UI
   - 
