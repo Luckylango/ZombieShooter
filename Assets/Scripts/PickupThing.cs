@@ -27,6 +27,8 @@ public class PickupThing : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        levelManagerObj = GameObject.FindGameObjectWithTag("LevelManager");
+        levelManager = levelManagerObj.GetComponent<LevelManager>();   
     }
 
     private void OnTriggerEnter(Collider other)
